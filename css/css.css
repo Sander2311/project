@@ -1,0 +1,256 @@
+body{
+    max-width: 1920 px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 950 px;
+    width: 1920px;
+    background-image: url("../img/fon.png");
+
+}
+
+nav div div div.firs h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: bold;
+    line-height: 29.3px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    display: inline;
+}
+
+nav div div div.firs p{
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #788891;
+    margin-left: 60px;
+    
+}
+
+.firs{
+    text-align: left;
+    margin-left: 253px;
+    margin-top: 20px;
+}
+
+nav div div div.sec p{
+    font-family: 'PT Mono', monospace;
+    font-size: 16px;
+    line-height: 17.92px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.sec{
+    text-align: right;
+    margin-top: 25px;
+}
+
+nav div div div.th p{
+    font-family: 'PT Mono', monospace;
+    font-size: 16px;
+    line-height: 17.92px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.th{
+    text-align: right;
+    margin-top: 25px;
+}
+
+nav div div div.four div div{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #FFFFFF;
+    display: inline;
+    width: 180px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.four{
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 256px;
+}
+
+@media screen and (min-width: 351px) and (max-width: 750px){
+    .firs{
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    nav div div div.sec p{
+        display: none;
+    }
+
+    nav div div div.th p{
+        display: none;
+    }
+    .sec{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .th{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .four{
+        display: none;
+    }
+    
+}
+
+header div.row div.col-6 div.one{
+    margin-top: 150px;
+    margin-left: 249px;
+
+}
+
+header div.row div.col-6 div.one h1{
+    color: #FFFFFF;
+    width: 700px;
+    height: 94px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: bold;
+    font-size: 80px;
+    line-height: 93.75px;
+    text-transform: uppercase;
+
+}
+
+header div.row div.col-6 div.one>p{
+    color: #FFFFFF;
+    width: 683;
+    height: 70px;
+    font-family: 'PT Mono', monospace;
+    font-size: 22px;
+    line-height: 34.5px;
+    margin-left: 100px;
+
+}
+
+header div.row div.col-6 div img{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 177px;
+    transform: scale(-1, 1);
+}
+
+.button{
+    width: 350px;
+    height: 55px;
+    background-color: #00B2FF;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-top: 50px;
+}    
+div.button>p{
+    
+    height: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #FFFFFF;
+    letter-spacing: 5%;
+    padding: 20px 20px 20px 50px;
+}
+main{
+    margin-top: 109px;
+    margin-bottom: 170px;
+}
+main div.bloks{
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
+
+main div.bloks div div{
+    width: 500px;
+    height: 299px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-color:#EBEBEB #EBEBEB #EBEBEB #00B2FF ;
+    color: #00B2FF;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+main div.bloks div div h2{
+    width: 410,01px;
+    height: 34px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    line-height: 33.75px;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+main div.bloks div div p{
+    color: #666666;
+    width: 482,77px;
+    height: 103px;
+    font-family: 'PT Mono', monospace;
+    font-size: 16px;
+    line-height: 21.5px;
+    margin-top: 15;
+    padding-left: 40px;
+}
+
+main div.bloks div div img{
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+main div.bloks div div:hover{
+    background-color: #00B2FF;
+    color:#FFFFFF;
+}
+
+.about-comp{
+    background-color:#ffffff;
+}
+
+.num>img{
+    margin-left: 50px;
+}
+
+.about-comp h2{
+    width: 179px;
+    height: 51px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+}
+
+.about-comp p{
+    width: 984px;
+    max-height: 174px;
+    font-family: 'PT Mono', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+
+}
+
+.about-button{
+    width: 180px;
+    height: 45px;
+    border: 1px solid #00B2FF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+}
+.about-button span{
+    color: #00B2FF;
+}
